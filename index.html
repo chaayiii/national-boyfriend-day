@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Ayii ♡</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hearts"></div>
+<main>
+<section class="hero" id="home">
+<p class="eyebrow">3 october · national boyfriend day</p>
+<div class="gift" onclick="openGift()"><div class="lid"></div><div class="box"></div><span>🎁</span></div>
+<h1>for my Ayii ♡</h1>
+<p class="subtitle">ada sesuatu kecil yang aku siapin buat kamu.</p>
+<button onclick="openGift()">open your gift 💌</button>
+<p class="hint">tap the gift or the button</p>
+</section>
+
+<section class="content hidden" id="content">
+<div class="section-card intro reveal">
+<p class="eyebrow">for Darul Muarif, my Ayii</p>
+<h2>happy national boyfriend day, Ayii ♡</h2>
+<p>walaupun kita lagi LDR dan kamu lagi sibuk kerja, aku tetap mau punya satu hari kecil buat ngingetin kamu kalau ada aku yang selalu sayang dan dukung kamu dari jauh.</p>
+</div>
+
+<div class="section-card reveal">
+<p class="eyebrow">our little memories</p>
+<h2>some moments i want to keep 📸</h2>
+<div class="gallery">
+<figure><img src="foto1.jpg" alt="Memory 1"><figcaption>one of my favorite moments ♡</figcaption></figure>
+<figure><img src="foto2.jpg" alt="Memory 2"><figcaption>even from far away...</figcaption></figure>
+<figure><img src="foto3.jpg" alt="Memory 3"><figcaption>still us, still worth keeping</figcaption></figure>
+</div>
+<p style="margin-top:22px;text-align:center;">semoga nanti kita punya lebih banyak foto, lebih banyak cerita, dan lebih banyak waktu bareng.</p>
+</div>
+
+<div class="section-card timeline reveal">
+<p class="eyebrow">our little story</p>
+<h2>from a distance, with love ✨</h2>
+<div class="line">
+<div><span>01</span><div><h3>kita</h3><p>dua orang yang dipisahin jarak, tapi tetap memilih buat saling ada.</p></div></div>
+<div><span>02</span><div><h3>hari-hari sibuk kamu</h3><p>aku tahu kamu kerja, capek, dan punya banyak hal yang harus kamu pikirin. jadi kalau kadang waktu kita sedikit, aku ngerti.</p></div></div>
+<div><span>03</span><div><h3>aku di sini</h3><p>walaupun nggak selalu bisa ada di samping kamu, aku tetap mau jadi seseorang yang bisa kamu pulangin lewat cerita-cerita kecil kamu.</p></div></div>
+</div>
+</div>
+
+<div class="section-card letter reveal">
+<p class="eyebrow">a letter for my boyfriend</p>
+<h2>dear Ayii, 💌</h2>
+<p>happy national boyfriend day, sayang.</p>
+<p>aku sebenarnya nggak jago bikin kata-kata yang terlalu manis, tapi hari ini aku pengen bilang sesuatu yang mungkin sering aku lupa sampaikan.</p>
+<p>thank you for staying, for trying, dan untuk semua hal kecil yang mungkin menurut kamu biasa aja, tapi buat aku berarti. aku tahu hubungan kita nggak selalu gampang, apalagi kita LDR. ada jarak, ada kesibukan, ada hari-hari di mana kita cuma sempat saling ngabarin sebentar.</p>
+<p>aku tahu kamu sibuk kerja dan pasti capek. aku nggak selalu butuh kamu punya waktu seharian buat aku. aku cuma pengen kamu tahu kalau aku tetap menghargai setiap waktu kecil yang kamu sempatin buat aku.</p>
+<p>mungkin aku kadang banyak overthinking, kadang terlalu kepikiran hal-hal kecil, dan kadang cara aku sayang juga nggak selalu sempurna. tapi satu hal yang aku tahu, aku sayang sama kamu.</p>
+<p>aku pengen kita sama-sama belajar jadi lebih baik, bukan cuma bertahan karena sayang, tapi juga karena kita sama-sama mau menjaga hubungan ini.</p>
+<p>semoga sejauh apa pun jarak kita sekarang, suatu hari nanti jarak itu cuma jadi cerita yang bisa kita ingat sambil ketawa. semoga nanti ada lebih banyak hari di mana aku nggak cuma bisa bilang "hati-hati kerja" lewat chat, tapi bisa bilang langsung di depan kamu.</p>
+<p>so, happy National Boyfriend Day, Ayii. thank you for being my boyfriend, my person, and someone who has a special place in my heart.</p>
+<p class="signature">with love,<br><strong>Rechaa</strong> 🤍</p>
+</div>
+
+<div class="final reveal">
+<div class="sparkle">✦</div>
+<h2>one last thing...</h2>
+<p>kalau suatu hari kamu lagi capek banget, buka website ini lagi ya.</p>
+<p style="margin-top:10px;">biar kamu ingat kalau di Bandung sana, ada Rechaa yang selalu berharap kamu baik-baik aja. ♡</p>
+<button onclick="makeHearts()">send some love to Ayii ♡</button>
+<p class="tiny">made with love by Rechaa · 3 October 2026</p>
+</div>
+</section>
+</main>
+<button class="music-btn" onclick="toggleMusic()" aria-label="Music">♪</button>
+<audio id="music" loop><source src="music.mp3" type="audio/mpeg"></audio>
+<script src="script.js"></script>
+</body>
+</html>
